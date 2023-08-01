@@ -1,0 +1,39 @@
+body{
+     background-image: linear-gradient(to top, #5ee7df 0%, #b490ca 100%);
+     height: 100vh;
+}
+
+.col-md-7 {
+     margin: 150px;
+     background-color: white;
+     padding: 22px;
+}
+
+input, label {
+     padding: 10px;
+     font-weight: bold;
+     font-size: large;
+     /* margin: 10px; */
+}
+
+#quizdiv {
+     margin-left: 25px;
+}
+
+button {
+     margin-top: 10px;
+     /* float: start; */
+     font-weight: bold !important;
+}
+
+#hidbtn {
+     display: none;
+}
+
+h1 {
+     background-image: linear-gradient(-225deg, #FF3CAC 0%, #562B7C 52%, #2B86C5 100%);
+     margin: none;
+     color: white;
+     font-weight: bold;
+}
+

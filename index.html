@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+          <link rel="stylesheet" href="./style.css">
+     <title>Quiz page</title>
+</head>
+
+<body>
+     <div class="conatiner">
+          <div class="row justify-content-center">
+               <div class="col-md-7 shadow-lg p-3 mb-5 bg-white rounded">
+                    <h1 class="text-center shadow-sm p-3 mb-5 bg-white rounded">JS Quiz</h1>
+                    <div id="quizdiv">
+                         <h2 id="Question">Question</h2>
+                         <li>
+                              <input type="radio" name="answer" id="a" class="answer">
+                              <label for="a" id="a_value">Option A</label>
+                         </li>
+                         <li>
+                              <input type="radio" name="answer" id="b" class="answer">
+                              <label for="b" id="b_value">Option B</label>
+                         </li>
+                         <li>
+                              <input type="radio" name="answer" id="c" class="answer">
+                              <label for="c" id="c_value">Option C</label>
+                         </li>
+                         <li>
+                              <input type="radio" name="answer" id="d" class="answer">
+                              <label for="d" id="d_value">Option D</label>
+                         </li>
+                         <button class="btn btn-primary" id="submit">SUBMIT</button>
+                         <button class="btn btn-primary " id="hidbtn" onclick="document.location.reload()">REFRESH</button>
+                    </div>
+               </div>
+          </div>
+     </div>
+</body>
+
+</html>
+
+<script src="./index.js"></script>
